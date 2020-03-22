@@ -1,0 +1,203 @@
+ul{
+	display: flex;
+	justify-content: flex-end;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul.follow{
+	display: flex;
+	justify-content:flex-start;
+	margin: 0;
+	padding: 0;
+	list-style-type:none;
+	text-align: left;
+}
+
+
+ul li a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+	text-align: center;
+	color: #fff;
+	padding: 5px;
+}
+
+.navbar .nav-item a.nav-link{
+	color: #000;
+	width: 100px;
+}
+
+.mobile-nav select{
+	width: 100%;
+	height: 45px;
+	border: none;
+	border-radius: 4px;
+	background: #eee;
+	font-size: 1.5em;
+	padding: 5px;
+}
+
+ul li a.fa.fa-facebook{
+	background: blue;
+}
+
+ul li a.fa.fa-twitter{
+	background: skyblue;
+}
+
+ul li a.fa.fa-google-plus{
+	background: red;
+}
+
+ul li a.fa.fa-pinterest-p{
+	background: pink;
+}
+
+.mobile-nav{
+	display: none;
+}
+
+.slider-content{
+	padding: 7% 0 0 10%;
+}
+
+.btn-default{
+	border: 1px solid #999;
+}
+
+
+.red{
+	color: red;
+}
+
+.padding-top{
+	padding-top: 7%;
+}
+
+.padding-right{
+	padding-right: 10%;
+}
+
+.about-bg-img{
+	background-image: url(../images/bg1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+
+.card {
+	margin-top: 8px;
+	position: relative;
+}
+.collection{
+	background: url(../images/bg3.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 450px;
+	padding: 13% 6%;
+	color: #eee;
+
+}
+.organic{
+	background: url(../images/bg4.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 450px;
+	padding: 13%  6%;
+	color: #eee;
+
+}
+.services{
+	background-image: url(../images/bg5.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+.chef-main{
+	position: relative;
+}
+.chef-main .chef{
+	position: absolute;
+	bottom: -7rem;
+	left: 27%;
+}
+
+.card-header {
+	padding: 0;
+	background-color: transparent;
+	border: none;
+}
+img.img-blog{
+	margin-top: -60px;
+	margin-left: 15px;
+}
+.author{
+	border-top: 2px solid#eee;
+	border-bottom: 2px solid #eee;
+	padding: 10px 0;
+}
+.post-margin-top{
+	margin-top: 130px;
+}
+
+.all-menu-bg{
+	width: 100%;
+	height: 400px;
+	background-image: url(../images/menu-1.jpg);
+	background-size: cover;
+	background-repeat: repeat-x;
+	animation: slideimage 20000s infinite linear;
+	-webkit-animation: slideimage 20000s infinite linear;
+	-moz-animation: slideimage 20000s infinite linear;
+}
+.footer{
+	width: 100%;
+	height: 400px;
+	background-color: #000;
+	color: white;
+}
+
+.burger{
+	color-adjust: black;
+	border-bottom: 10px;
+}
+
+
+@keyframes slideimage{
+	0%{background-position: 0%;}
+
+	100%{background-position: 90000%;}
+}
+@-webkit-keyframes slideimage{
+	0%{background-position: 0%;}
+	
+	100%{background-position: 9000%;}
+}
+@-moz-keyframes slideimage{
+	0%{background-position: 0%;}
+	
+	100%{background-position: 90000%;}
+
+}
+
+@media only screen and (max-width: 768px){
+	.desktop-nav{
+		display: none;
+	}
+
+	.mobile-nav{
+		display: block;
+	}
+
+	.chef-main{
+		display: none;
+	}
+}
+
+
